@@ -5,15 +5,15 @@
     android:id="@+id/rootView"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/holo_blue_light"
+    android:background="@android:color/black"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:scaleType="centerCrop"
-        tools:src="@drawable/step_one" />
+        android:adjustViewBounds="true"
+        tools:src="@drawable/frame_one" />
 
     <com.junio.library.ProgressBarSteps
         android:id="@+id/progressbarSteps"

@@ -6,7 +6,7 @@ import com.junio.library.ProgressBarSteps
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), ProgressBarSteps.OnListener {
-    private var listImage: MutableList<Int> = ArrayList()
+    private var listImage: MutableList<Int> = mutableListOf()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -16,10 +16,10 @@ class MainActivity : AppCompatActivity(), ProgressBarSteps.OnListener {
     }
 
     private fun int() {
-        listImage.add(R.drawable.step_one)
-        listImage.add(R.drawable.step_two)
-        listImage.add(R.drawable.step_three)
-        listImage.add(R.drawable.step_four)
+        listImage.add(R.drawable.frame_one)
+        listImage.add(R.drawable.frame_two)
+        listImage.add(R.drawable.frame_three)
+        listImage.add(R.drawable.frame_four)
 
         progressbarSteps.setListener(this)
         progressbarSteps.startProgress()
