@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ProgressBarSteps">
+        <attr name="pbsStepsCount" format="integer" />
+        <attr name="pbsBackgroundColor" format="color" />
+        <attr name="pbsForegroundColor" format="color" />
+    </declare-styleable>
+</resources>
